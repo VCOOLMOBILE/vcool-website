@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* stupid IE */
+
+.pop-video{
+    background: #000;
+}
+.main-features .script .storyboard li .text{
+    background: #000;
+}
+.main-features .video .video-lineup a:after{
+    background: none;
+    border: none;
+}
+.main-about .timeline .card .story-video li a:after{
+    background: none;
+    border: none;
+}
+.main-about .timeline{
+    background: url(../images/UI/timeline-small.png) center top no-repeat;
+}
+.footer .btn-facebook{ background-image: url(../images/UI/icon-facebook-small.png);}
+.footer .btn-twitter{ background-image: url(../images/UI/icon-twitter-small.png);}

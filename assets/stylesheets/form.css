@@ -1,0 +1,150 @@
+/* © 123ContactForm.com , 2010 */ 
+
+/* Contact Us 使用 */ 
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+
+#id123-control20509866{ /* name */
+    border: none;
+    border-bottom: 2px solid #F3C10F;
+    background: none;
+    color: #eee !important;
+    font-size: 2em !important;
+    font-weight: 300 !important;
+    height: auto !important;
+    padding: 10px 0 !important;
+    box-sizing: border-box; 
+    font-style: italic;
+    -webkit-appearance: none;
+    border-radius: 0;
+    font-family: 'Roboto','Helvetica Neue',Helvetica, Arial,'Apple LiGothic Medium','STHeiti Light','微軟正黑體','Microsoft JhengHei',sans-serif !important;
+}
+#id123-control20509867{ /* email */
+    border: none;
+    border-bottom: 2px solid #F3C10F;
+    background: none;
+    color: #eee !important;
+    font-size: 2em !important;
+    font-weight: 300 !important;
+    height: auto !important;
+    padding: 10px 0 !important;
+    box-sizing: border-box; 
+    font-style: italic;
+    -webkit-appearance: none;
+    border-radius: 0;
+    font-family: 'Roboto','Helvetica Neue',Helvetica, Arial,'Apple LiGothic Medium','STHeiti Light','微軟正黑體','Microsoft JhengHei',sans-serif !important;
+}
+#id123-control20509868 { /* message textarea */
+    width: 100%;
+    border: none !important;
+    border-bottom: 2px solid #F3C10F !important;
+    background: none !important;
+    color: #eee !important;
+    font-size: 2em;
+    font-weight: 300 !important;
+    padding: 0;
+    box-sizing: border-box; 
+    transition: all 0.4s;
+    margin-top: 30px;
+    padding: 10px 0;
+    height: 175px;
+    resize: none;
+    font-style: italic;
+    -webkit-appearance: none;
+    border-radius: 0;
+    font-family: 'Roboto','Helvetica Neue',Helvetica, Arial,'Apple LiGothic Medium','STHeiti Light','微軟正黑體','Microsoft JhengHei',sans-serif !important;
+}
+#id123-button-send{ /* 送出按鈕 */
+    background: #F3C10F !important;
+    color: #222;
+    text-transform: uppercase;
+    padding: 0.7em 1.2em !important;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 50px;
+    display: inline-block;
+    border: 3px solid #F3C10F;
+    transition-duration: 0.3s;
+    margin: 40px auto;
+    display: block;
+    width: 160px;
+    -webkit-appearance: none;
+}
+#id123-button-send:hover{
+    background: none !important;
+    color: #fff;
+}
+#id123-thankyou{ /* 成功送出後 顯示文字 */
+    font-size: 2em !important;
+    font-weight: normal !important;
+}
+#errordiv{ /* error box */
+    background: rgba(243,193,15,0.1) !important;
+    border: 1px solid #F3C10F !important;
+    border-radius: 5px !important;
+    padding: 10px 20px 0 20px !important;
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
+    font-family: 'Roboto','Helvetica Neue',Helvetica, Arial,'Apple LiGothic Medium','STHeiti Light','微軟正黑體','Microsoft JhengHei',sans-serif !important;
+}
+#errormsg{ /* error message */
+}
+.fielderror{ /* 欄位 error message */
+    font-size: 1.5em !important;
+}
+
+
+#formwrapper{
+    width: 100% !important;
+}
+
+#fieldcontainer1{ /* name 外層 */
+    width: 50% !important;
+    float: left !important;
+}
+
+#fieldcontainer2{ /* email 外層 */
+    width: 50% !important;
+    float: left !important;
+}
+
+
+
+@media screen and (max-width: 750px) { /* mobile */
+#fieldcontainer1{ /* name 外層 */
+    width: 100% !important;
+}
+#fieldcontainer2{ /* email 外層 */
+    width: 100% !important;
+}
+#id123-control20509866{ /* name */
+    font-size: 2.5em !important;
+}
+#id123-control20509867{ /* email */
+    font-size: 2.5em !important;
+}
+#id123-control20509868 { /* message textarea */
+    font-size: 2.5em !important;
+}
+#id123-button-send{
+    font-size: 2em;
+    width: 300px;
+}
+}
+
+
+
+ /* 隱藏空白div */
+.col-sm-3{
+    display: none !important;
+}
+.col-sm-6{
+    width: 100% !important;
+}
+.col-sm-9{
+    width: 100% !important;
+}
+.col-sm-offset-3{
+    margin-left: 0 !important;
+}

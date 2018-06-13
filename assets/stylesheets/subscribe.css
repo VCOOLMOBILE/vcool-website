@@ -1,0 +1,106 @@
+/* © 123ContactForm.com , 2010 */ 
+
+/* 首頁 Subscribe 使用 */ 
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+
+#id123-control20511223{ /* email */
+    border: none;
+    border-bottom: 2px solid #F3C10F;
+    background: none;
+    color: #eee !important;
+    font-size: 2em !important;
+    font-weight: 300 !important;
+    height: auto !important;
+    padding: 10px 0 !important;
+    box-sizing: border-box;
+    font-style: italic;
+    -webkit-appearance: none;
+    border-radius: 0;
+    font-family: 'Roboto','Helvetica Neue',Helvetica, Arial,'Apple LiGothic Medium','STHeiti Light','微軟正黑體','Microsoft JhengHei',sans-serif !important;
+}
+#id123-button-send{ /* 送出按鈕 */
+    background: #F3C10F !important;
+    color: #222;
+    text-transform: uppercase;
+    padding: 12px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    border: 3px solid #F3C10F;
+    transition-duration: 0.3s;
+    display: block;
+    width: 100%;
+    font-family: 'Roboto','Helvetica Neue',Helvetica, Arial,'Apple LiGothic Medium','STHeiti Light','微軟正黑體','Microsoft JhengHei',sans-serif !important;
+    -webkit-appearance: none;
+}
+#id123-button-send:hover{
+    background: none !important;
+    color: #fff;
+}
+#id123-thankyou{ /* 成功送出後 顯示文字 */
+    font-size: 2em !important;
+    font-weight: normal !important;
+}
+#errordiv{ /* error box */
+    background: rgba(243,193,15,0.1) !important;
+    border: 1px solid #F3C10F !important;
+    border-radius: 5px !important;
+    padding: 10px 20px 0 20px !important;
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
+    font-family: 'Roboto','Helvetica Neue',Helvetica, Arial,'Apple LiGothic Medium','STHeiti Light','微軟正黑體','Microsoft JhengHei',sans-serif !important;
+}
+#formwrapper{
+    width: 100% !important;
+}
+.fielderror{ /* 欄位 error message */
+    font-size: 1.5em !important;
+}
+
+
+
+#fieldcontainer1{ /* email 外層 */
+    width: 68% !important;
+    float: left !important;
+}
+
+#fieldcontainer2{ /* 送出按鈕 外層 */
+    width: 28% !important;
+    float: left !important;
+}
+.class123_maintable > .row{ /* 隱藏文字欄位和送出按鈕間的div 使兩者排為一行 */
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 750px) { /* mobile */
+#fieldcontainer1{ /* email 外層 */
+    width: 100% !important;
+}
+#fieldcontainer2{ /* 送出按鈕 外層 */
+    width: 100% !important;
+}
+#id123-control20511223{ /* email */
+    font-size: 2.5em !important;
+}
+}
+
+
+ /* 隱藏空白div */
+.col-sm-3{
+    display: none !important;
+}
+.col-sm-6{
+    width: 100% !important;
+}
+.col-sm-9{
+    width: 100% !important;
+}
+.col-sm-offset-3{
+    margin-left: 0 !important;
+}
