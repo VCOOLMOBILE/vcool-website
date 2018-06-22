@@ -611,7 +611,7 @@ textarea:focus    { outline: none;}
 }
 .cover-text{
     max-width: 750px;
-    margin: 8% 0 3% 7%;
+    margin: 8% 7% 3% 7%;
     position: relative;
 }
 }
@@ -2909,6 +2909,14 @@ textarea:focus    { outline: none;}
 .main-features .editing .graph{
     width: 60%;
     float: left;
+    position: relative;
+}
+.main-features .editing .graph video{
+    position: absolute;
+    width: 480px;
+    height: 259px;
+    top: 280px;
+    left: 103px;
 }
 .main-features .editing .graph img{
     max-width: 100%;
